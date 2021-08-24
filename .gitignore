@@ -2,3 +2,28 @@
 public/
 resources/
 **/.DS_Store
+
+# Ignore GOLAND
+.idea
+
+# Ignore Direnv
+.envrc*
+
+# Ignore Terraform files
+.terraform*
+*.tfplan
+*.tfstate*
+*terraform-provider*
+
+# Ignore scripts
+*.sh
+
+# Except for below
+# !example.sh
+
+# Sensitive files
+.pem*
+*.csv
+*kubeconfig
+*kubeconfig*
+
